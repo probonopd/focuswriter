@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="sk" sourcelanguage="en">
+<TS version="2.1" language="gl" sourcelanguage="en">
 <context>
     <name>Alert</name>
     <message>
         <source>Close (%1)</source>
-        <translation>Zavrieť (%1)</translation>
+        <translation>Pechar (%1)</translation>
     </message>
     <message>
         <source>Collapse</source>
-        <translation>Zbaliť</translation>
+        <translation>Contraer</translation>
     </message>
     <message>
         <source>Expand</source>
-        <translation>Rozbaliť</translation>
+        <translation>Expandir</translation>
     </message>
 </context>
 <context>
     <name>AlertLayer</name>
     <message>
         <source>Dismiss Alert</source>
-        <translation>Zrušiť upozornenie</translation>
+        <translation>Desactivar alerta</translation>
     </message>
     <message>
         <source>Ctrl+D</source>
@@ -31,34 +31,30 @@
     <name>DailyProgress</name>
     <message numerus="yes">
         <source>%L1% of %Ln minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%L1% de %Ln minuto</numerusform>
+            <numerusform>%L1% de %Ln minutos</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%L1% of %Ln word(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%L1% de %Ln palabra</numerusform>
+            <numerusform>%L1% de %Ln palabras</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln word(s)</source>
         <translation>
-            <numerusform>%Ln slov</numerusform>
-            <numerusform>%Ln slov</numerusform>
-            <numerusform>%Ln slov</numerusform>
+            <numerusform>%Ln palabra</numerusform>
+            <numerusform>%Ln palabras</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln minute(s)</source>
         <translation>
-            <numerusform>%Ln minút(y)</numerusform>
-            <numerusform>%Ln minút(y)</numerusform>
-            <numerusform>%Ln minút(y)</numerusform>
+            <numerusform>%Ln minuto</numerusform>
+            <numerusform>%Ln minutos</numerusform>
         </translation>
     </message>
     <message>
@@ -70,1134 +66,1132 @@
     <name>DailyProgressDialog</name>
     <message>
         <source>Daily Progress</source>
-        <translation>Denný pokrok</translation>
+        <translation>Progreso diario</translation>
     </message>
     <message>
         <source>Longest streak</source>
-        <translation>Najdlhší pás</translation>
+        <translation>Liña máis longa</translation>
     </message>
     <message>
         <source>Current streak</source>
-        <translation>Aktuálny pás</translation>
+        <translation>Liña actual</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>N/A</translation>
+        <translation>Non Dispoñible</translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
         <translation>
-            <numerusform>%n dní</numerusform>
-            <numerusform>%n dní</numerusform>
-            <numerusform>%n dní</numerusform>
+            <numerusform>%n día</numerusform>
+            <numerusform>%n días</numerusform>
         </translation>
     </message>
     <message>
         <source>%1 &amp;ndash; %2</source>
-        <translation>%1 &amp;mdash; %2</translation>
+        <translation>%1 &amp;ndash; %2</translation>
     </message>
 </context>
 <context>
     <name>DailyProgressLabel</name>
     <message>
         <source>%L1% of daily goal</source>
-        <translation type="unfinished"></translation>
+        <translation>%L1% da meta diaria</translation>
     </message>
 </context>
 <context>
     <name>DictionaryDialog</name>
     <message>
         <source>Set Language</source>
-        <translation>Nastaviť jazyk</translation>
+        <translation>Establece Linguaxe</translation>
     </message>
 </context>
 <context>
     <name>Document</name>
     <message>
         <source>(Untitled %1)</source>
-        <translation>(Bez názvu %1)</translation>
+        <translation type="unfinished">(Sin título %1)</translation>
     </message>
     <message>
         <source>%1 (Read-Only)</source>
-        <translation>%1 (Iba na čítanie)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation>Prepáčte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to save &apos;%1&apos;.</source>
-        <translation>Nedá sa uložiť &apos;%1&apos;.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Save File As</source>
-        <translation>Uložiť súbor ako</translation>
+        <translation>Gardar aquivo como</translation>
     </message>
     <message>
         <source>Unable to overwrite &apos;%1&apos;.</source>
-        <translation>Nedá sa prepísať &apos;%1&apos;.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rename File</source>
-        <translation>Premenovať súbor</translation>
+        <translation>Renombrar arquivo</translation>
     </message>
     <message>
         <source>Unable to rename &apos;%1&apos;.</source>
-        <translation>Nedá sa premenovať  &apos;%1&apos;.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reload File?</source>
-        <translation>Opätovne načítať súbor?</translation>
+        <translation>Recargar arquivo?</translation>
     </message>
     <message>
         <source>Reload the file &apos;%1&apos; from disk?</source>
-        <translation>Opätovne načítať súbor %1 z disku?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>All unsaved changes will be lost.</source>
-        <translation>Všetky neuložené zmeny budú stratené.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Opätovne načítať</translation>
+        <translation>Recargar</translation>
     </message>
     <message>
         <source>Untitled %1</source>
-        <translation>Bez názvu %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Otázka</translation>
+        <translation type="unfinished">Confirmación</translation>
     </message>
     <message>
         <source>Saving as plain text will discard all formatting. Discard formatting?</source>
-        <translation>Uloženie ako obyčajný text odstráni formátovanie. Chcete zrušiť formátovanie?</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DocumentWatcher</name>
     <message>
         <source>File Changed</source>
-        <translation>Súbor bol zmenený</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; was changed by another program.</source>
-        <translation>Súbor %1 bol zmenený iným programom.</translation>
+        <translation>O arquivo &apos;%1&apos; foi modificado por outro programa.</translation>
     </message>
     <message>
         <source>Do you want to reload the file?</source>
-        <translation>Chcete súbor opätovne načítať?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reload</source>
-        <translation>Opätovne načítať</translation>
+        <translation>Recargar</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation>Ignorovať</translation>
+        <translation>Ignorar</translation>
     </message>
     <message>
         <source>File Deleted</source>
-        <translation>Súbor bol vymazaný</translation>
+        <translation>Arquivo borrado</translation>
     </message>
     <message>
         <source>The file %1 was deleted by another program.</source>
-        <translation>Súbor %1 bol vymazaný iným programom.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Do you want to save or close the file?</source>
-        <translation>Chcete súbor uložiť alebo zavrieť?</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DocxReader</name>
     <message>
         <source>Unable to open archive.</source>
-        <translation>Nie je možné otvoriť archív.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FindDialog</name>
     <message>
         <source>Search for:</source>
-        <translation>Vyhľadať:</translation>
+        <translation>Buscar:</translation>
     </message>
     <message>
         <source>Replace with:</source>
-        <translation>Nahradiť:</translation>
+        <translation>Reemprazar con:</translation>
     </message>
     <message>
         <source>Ignore case</source>
-        <translation>Ignorovať veľkosť začiatočných písmen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Whole words only</source>
-        <translation>Iba celé slová</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Regular expressions</source>
-        <translation>Regulárne výrazy</translation>
+        <translation>Expresións regulares</translation>
     </message>
     <message>
         <source>Search up</source>
-        <translation>Hľadať smerom hore</translation>
+        <translation>Buscar arriba</translation>
     </message>
     <message>
         <source>Search down</source>
-        <translation>Hľadať smerom dole</translation>
+        <translation>Buscar abaixo</translation>
     </message>
     <message>
         <source>&amp;Find</source>
-        <translation>&amp;Nájsť</translation>
+        <translation>&amp;Buscar</translation>
     </message>
     <message>
         <source>&amp;Replace</source>
-        <translation>Na&amp;hradiť</translation>
+        <translation>&amp;Reemprazar</translation>
     </message>
     <message>
         <source>Replace &amp;All</source>
-        <translation>Nahradiť &amp;všetko</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Find</source>
-        <translation>Nájsť</translation>
+        <translation>Buscar</translation>
     </message>
     <message>
         <source>Replace</source>
-        <translation>Nahradiť</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <source>Replace %n instance(s)?</source>
-        <translation>
-            <numerusform>Nahradiť %n výskyt?</numerusform>
-            <numerusform>Nahradiť %n výskyty?</numerusform>
-            <numerusform>Nahradiť %n výskytov?</numerusform>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Otázka</translation>
+        <translation type="unfinished">Confirmación</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation>Prepáčte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Phrase not found.</source>
-        <translation>Výraz nebol nájdený.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FormatManager</name>
     <message>
         <source>OpenDocument Text</source>
-        <translation>OpenDocument Text</translation>
+        <translation>OpenDocument - texto</translation>
     </message>
     <message>
         <source>Office Open XML</source>
-        <translation>Office Open XML</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Rich Text Format</source>
-        <translation>Rich Text Format</translation>
+        <translation>formato de Texto Enriquecido</translation>
     </message>
     <message>
         <source>Plain Text</source>
-        <translation>Obyčajný text</translation>
+        <translation>Texto Plano</translation>
     </message>
     <message>
         <source>All Files</source>
-        <translation>Všetky súbory</translation>
+        <translation>Todos os arquivos</translation>
     </message>
     <message>
         <source>All Supported Files</source>
-        <translation>Všetky podporované súbory</translation>
+        <translation>Todos os arquivos soportados</translation>
     </message>
     <message>
         <source>OpenDocument Flat XML</source>
-        <translation>OpenDocument Flat XML</translation>
+        <translation>OpenDocument - XML plano</translation>
     </message>
 </context>
 <context>
     <name>Highlighter</name>
     <message>
         <source>Add</source>
-        <translation>Pridať</translation>
+        <translation>Engadir</translation>
     </message>
     <message>
         <source>Check Spelling...</source>
-        <translation>Kontrola pravopisu...</translation>
+        <translation>Comprobar ortografía...</translation>
     </message>
     <message>
         <source>(No suggestions found)</source>
-        <translation>(Žiadne návrhy neboli nájdené)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ImageButton</name>
     <message>
         <source>Open Image</source>
-        <translation>Otvoriť obrázok</translation>
+        <translation>Abrir imaxe</translation>
     </message>
     <message>
         <source>Images(%1)</source>
-        <translation>Obrázky(%1)</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>LocaleDialog</name>
     <message>
         <source>Select application language:</source>
-        <translation>Výber jazyka programu:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&lt;System Language&gt;</source>
-        <translation>&lt;Predvolený jazyk systému&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Note</source>
-        <translation>Poznámka</translation>
+        <translation>Nota</translation>
     </message>
     <message>
         <source>Please restart this application for the change in language to take effect.</source>
-        <translation>K zmene jazyka dôjde po reštarte programu. </translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>OdtReader</name>
     <message>
         <source>Unable to open archive.</source>
-        <translation>Nie je možné otvoriť archív.</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PreferencesDialog</name>
     <message>
         <source>Preferences</source>
-        <translation>Nastavenia</translation>
+        <translation>Preferencias</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Všeobecné</translation>
+        <translation>Xeral</translation>
     </message>
     <message>
         <source>Statistics</source>
-        <translation>Štatistika</translation>
+        <translation>Estatísticas</translation>
     </message>
     <message>
         <source>Toolbar</source>
-        <translation>Panel nástrojov</translation>
+        <translation>Barra de ferramentas</translation>
     </message>
     <message>
         <source>Spell Checking</source>
-        <translation>Kontrola pravopisu</translation>
+        <translation>Comprobar ortografía</translation>
     </message>
     <message>
         <source>Select Dictionary</source>
-        <translation>Výber slovníka</translation>
+        <translation>Escolle dicionario</translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation>Prepáčte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to open archive.</source>
-        <translation>Archív nie je možné otvoriť. </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The archive does not contain a usable dictionary.</source>
-        <translation>Archív neobsahuje použiteľný slovník. </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Otázka</translation>
+        <translation type="unfinished">Confirmación</translation>
     </message>
     <message>
         <source>Shortcuts</source>
-        <translation>Skratky</translation>
+        <translation>Atallos</translation>
     </message>
     <message>
         <source>One or more shortcuts conflict. Do you wish to proceed?</source>
-        <translation>Bol zistený konflikt jednej alebo viacerých skratiek. Chcete pokračovať?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The dictionary &quot;%1&quot; already exists. Do you want to replace it?</source>
-        <translation>Slovník &quot;%1&quot; už existuje. Chcete ho nahradiť?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Daily Goal</source>
-        <translation>Denný cieľ</translation>
+        <translation>Obxetivo diario</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Žiadny</translation>
+        <translation>Ningún</translation>
     </message>
     <message>
         <source>Minutes:</source>
-        <translation>Minút:</translation>
+        <translation>Minutos:</translation>
     </message>
     <message>
         <source>Words:</source>
-        <translation>Slov:</translation>
+        <translation>Palabras:</translation>
     </message>
     <message>
         <source>Editing</source>
-        <translation>Úpravy</translation>
+        <translation>Edición</translation>
     </message>
     <message>
         <source>Always vertically center</source>
-        <translation>Vždy zarovnať vertikálne na stred</translation>
+        <translation>Centrar siempre verticalmente</translation>
     </message>
     <message>
         <source>Block insertion cursor</source>
-        <translation>Kurzor vkladania bloku</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Smooth fonts</source>
-        <translation>Jemné písma</translation>
+        <translation>Suavizar tipografías</translation>
     </message>
     <message>
         <source>Typewriter sounds</source>
-        <translation>Zvuk písacieho stroja</translation>
+        <translation>Sons de máquina de escribir</translation>
     </message>
     <message>
         <source>Smart quotes:</source>
-        <translation>Inteligentné úvodzovky:</translation>
+        <translation>Comillas intelixentes</translation>
     </message>
     <message>
         <source>Double</source>
-        <translation>Dvojité</translation>
+        <translation>Dobles</translation>
     </message>
     <message>
         <source>Single</source>
-        <translation>Jednoduché</translation>
+        <translation>Simples</translation>
     </message>
     <message>
         <source>Scenes</source>
-        <translation>Scény</translation>
+        <translation>Escenas</translation>
     </message>
     <message>
         <source>Divider:</source>
-        <translation>Oddeľovač:</translation>
+        <translation>Separador:</translation>
     </message>
     <message>
         <source>Saving</source>
-        <translation>Ukladanie</translation>
+        <translation>Gardando</translation>
     </message>
     <message>
         <source>Remember cursor position</source>
-        <translation>Zapamätať si pozíciu kurzora</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Word count</source>
-        <translation>Počet slov</translation>
+        <translation>Número de palabras</translation>
     </message>
     <message>
         <source>Page count</source>
-        <translation>Počet strán</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Paragraph count</source>
-        <translation>Počet odstavcov</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Character count</source>
-        <translation>Počet znakov</translation>
+        <translation>Número de caracteres</translation>
     </message>
     <message>
         <source>Characters:</source>
-        <translation>Znakov:</translation>
+        <translation>Caracteres:</translation>
     </message>
     <message>
         <source>Paragraphs:</source>
-        <translation>Odstavcov:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Word Count Algorithm</source>
-        <translation>Algoritmus počítania slov</translation>
+        <translation>Algoritmo para contar palabras</translation>
     </message>
     <message>
         <source>Reset daily progress for today to zero?</source>
-        <translation>Vynulovať dnešný denný pokrok?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Write byte order mark in plain text files</source>
-        <translation>Napísať znak pre označenie poradia bajtov v obyčajných textových súboroch</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Default format:</source>
-        <translation>Nastavený formát:</translation>
+        <translation>Formato por defecto:</translation>
     </message>
     <message>
         <source>Reset Today</source>
-        <translation>Vynulovať dnešok</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>History</source>
-        <translation>História</translation>
+        <translation>Historial</translation>
     </message>
     <message>
         <source>Remember history</source>
-        <translation>Zapamätať históriu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Show streaks</source>
-        <translation>Ukázať pásy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Minimum progress for streaks:</source>
-        <translation>Najmenší progres pre pásy:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Detect word boundaries</source>
-        <translation>Rozoznávanie hraníc slov</translation>
+        <translation>Detectar límites de palabras</translation>
     </message>
     <message>
         <source>Divide character count by six</source>
-        <translation>Deliť počet znakov šiestimi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Count each letter as a word</source>
-        <translation>Počítať každé písmeno ako slovo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Page Count Algorithm</source>
-        <translation>Algoritmus počítania strán</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Style</source>
-        <translation>Štýl</translation>
+        <translation>Estilo</translation>
     </message>
     <message>
         <source>Icons Only</source>
-        <translation>Iba ikony</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text Only</source>
-        <translation>Iba text</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text Alongside Icons</source>
-        <translation>Text vedľa ikon</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text Under Icons</source>
-        <translation>Text pod ikonami</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text Position:</source>
-        <translation>Pozícia textu:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Actions</source>
-        <translation>Činnosti</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Move Up</source>
-        <translation>Posunúť nahor</translation>
+        <translation>Subir</translation>
     </message>
     <message>
         <source>Move Down</source>
-        <translation>Posunúť nadol</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Add Separator</source>
-        <translation>Pridať oddeľovač</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Command</source>
-        <translation>Príkaz</translation>
+        <translation>Comando</translation>
     </message>
     <message>
         <source>Shortcut</source>
-        <translation>Skratka</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Action</source>
-        <translation>Činnosť</translation>
+        <translation>Acción</translation>
     </message>
     <message>
         <source>Check spelling as you type</source>
-        <translation>Kontrola pravopisu počas písania</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ignore words in UPPERCASE</source>
-        <translation>Ignorovať slová písané VEĽKÝMI PÍSMENAMI</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ignore words with numbers</source>
-        <translation>Ignorovať slová obsahujúce čísla</translation>
+        <translation>Omitir palabras con números</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>Jazyk</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Pridať</translation>
+        <translation type="unfinished">Engadir</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Odstrániť</translation>
+        <translation>Eliminar</translation>
     </message>
     <message>
         <source>Personal Dictionary</source>
-        <translation>Osobný slovník</translation>
+        <translation>Diccionario personal</translation>
     </message>
     <message>
         <source>Remove current dictionary?</source>
-        <translation>Odstrániť aktuálny slovník?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>User Interface</source>
-        <translation>Používateľské rozhranie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Always show scrollbar</source>
-        <translation> Vždy ukazovať rolovací pruh</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Always show top bar</source>
-        <translation>Vždy ukazovať hornú lištu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Always show bottom bar</source>
-        <translation>Vždy ukazovať spodnú lištu</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>RtfReader</name>
     <message>
         <source>Not a supported RTF file.</source>
-        <translation>Nepodporovaný súbor RTF. </translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>RtfTokenizer</name>
     <message>
         <source>Unexpectedly reached end of file.</source>
-        <translation>Neočakávaný koniec súboru. </translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SceneList</name>
     <message>
         <source>Ctrl+Shift+Down</source>
-        <translation>Ctrl+Shift+Down</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Move Scenes Up</source>
-        <translation>Posunúť scény nahor</translation>
+        <translation>Subir escenas</translation>
     </message>
     <message>
         <source>Ctrl+Shift+Up</source>
-        <translation>Ctrl+Shift+Up</translation>
+        <translation>Ctrl + Mayús + Arriba</translation>
     </message>
     <message>
         <source>Toggle Scene List</source>
-        <translation>Prepnúť zoznam scén</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Shift+F4</source>
-        <translation>Shift+F4</translation>
+        <translation>Mayús + F4</translation>
     </message>
     <message>
         <source>Show scene list (%1)</source>
-        <translation>Zobraziť zoznam scén (%1)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hide scene list (%1)</source>
-        <translation>Skryť zoznam scén (%1)</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Filter</source>
-        <translation>Filter</translation>
+        <translation>Filtro</translation>
     </message>
     <message>
         <source>Move Scenes Down</source>
-        <translation>Posunúť scény nadol</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Resize scene list</source>
-        <translation>Zmeniť veľkosť zoznamu scén</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Session</name>
     <message>
         <source>Default</source>
-        <translation>Prednastavený</translation>
+        <translation>Predeterminado</translation>
     </message>
 </context>
 <context>
     <name>SessionManager</name>
     <message>
         <source>Manage Sessions</source>
-        <translation>Spravovať relácie</translation>
+        <translation type="unfinished">Gestionar sesiones</translation>
     </message>
     <message>
         <source>S&amp;essions</source>
-        <translation>R&amp;elácie</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Nová</translation>
+        <translation type="unfinished">Nueva</translation>
     </message>
     <message>
         <source>Duplicate</source>
-        <translation>Kópia</translation>
+        <translation>Duplicar</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation>Premenovať</translation>
+        <translation>Renombrar</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Zmazať</translation>
+        <translation>Eliminar</translation>
     </message>
     <message>
         <source>Switch To</source>
-        <translation>Prepnúť na</translation>
+        <translation>Cambiar a</translation>
     </message>
     <message>
         <source>New Session</source>
-        <translation>Nová relácia</translation>
+        <translation type="unfinished">Nueva sesión</translation>
     </message>
     <message>
         <source>Duplicate Session</source>
-        <translation>Duplikovať reláciu</translation>
+        <translation>Duplicar Sesión</translation>
     </message>
     <message>
         <source>Rename Session</source>
-        <translation>Premenovať reláciu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Otázka</translation>
+        <translation type="unfinished">Confirmación</translation>
     </message>
     <message>
         <source>Delete selected session?</source>
-        <translation>Vymazať vybranú reláciu?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Session name:</source>
-        <translation>Názov relácie:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Sorry</source>
-        <translation>Prepáčte</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>The requested session name is already in use.</source>
-        <translation>Požadovaný názov relácie sa už používa.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;New...</source>
-        <translation>&amp;Nová...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ctrl+Shift+N</source>
-        <translation>Ctrl+Shift+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Manage...</source>
-        <translation>&amp;Spravovať...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Ctrl+Shift+M</source>
-        <translation>Ctrl+Shift+M</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ShortcutEdit</name>
     <message>
         <source>Clear</source>
-        <translation>Vyčistiť</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Reset to Default</source>
-        <translation>Obnoviť prednastavené</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Shortcut:</source>
-        <translation>Skratky:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SmartQuote</name>
     <message>
         <source>Replacing quotation marks...</source>
-        <translation>Nahrádzanie úvodzoviek...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please Wait</source>
-        <translation>Čakajte prosím</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SpellChecker</name>
     <message>
         <source>Check Spelling</source>
-        <translation>Kontrola pravopisu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Add</source>
-        <translation>&amp;Pridať</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Ignore</source>
-        <translation>&amp;Ignorovať</translation>
+        <translation>&amp;Omitir</translation>
     </message>
     <message>
         <source>I&amp;gnore All</source>
-        <translation>I&amp;gnorovať všetko</translation>
+        <translation>Omitir &amp;todas</translation>
     </message>
     <message>
         <source>&amp;Change</source>
-        <translation>&amp;Zmeniť</translation>
+        <translation>&amp;Cambiar</translation>
     </message>
     <message>
         <source>C&amp;hange All</source>
-        <translation>Z&amp;meniť všetko</translation>
+        <translation>Cambiar t&amp;odas</translation>
     </message>
     <message>
         <source>Not in dictionary:</source>
-        <translation>Nenachádza sa v slovníku:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Change to:</source>
-        <translation>Zmeniť na:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Checking spelling...</source>
-        <translation>Kontrola pravopisu...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>Zrušiť</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Please wait</source>
-        <translation>Čakajte prosím</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Continue checking at beginning of file?</source>
-        <translation>Pokračovať v kontrole od začiatku súboru?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Spell check complete.</source>
-        <translation>Kontrola pravopisu ukončená. </translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SymbolsDialog</name>
     <message>
         <source>Symbols</source>
-        <translation>Symboly</translation>
+        <translation>Símbolos</translation>
     </message>
     <message>
         <source>Recently used symbols</source>
-        <translation>Posledné použité symboly</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>All symbols</source>
-        <translation>Všetky symboly</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Details</source>
-        <translation>Podrobnosti</translation>
+        <translation>Detalles</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation>Názov:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation>Vložiť</translation>
+        <translation>Insertar</translation>
     </message>
 </context>
 <context>
     <name>SymbolsModel</name>
     <message>
         <source>Blocks</source>
-        <translation>Bloky</translation>
+        <translation>Bloques</translation>
     </message>
     <message>
         <source>Scripts</source>
-        <translation>Skripty</translation>
+        <translation>Secuencias</translation>
     </message>
 </context>
 <context>
     <name>Theme</name>
     <message>
         <source>Untitled %1</source>
-        <translation>Bez názvu %1</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ThemeDialog</name>
     <message>
         <source>Name:</source>
-        <translation>Názov:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>No Image</source>
-        <translation>Žiadny obrázok</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Tiled</source>
-        <translation>Dlaždice</translation>
+        <translation>Mosaico</translation>
     </message>
     <message>
         <source>Centered</source>
-        <translation>Na stred</translation>
+        <translation>Centrado</translation>
     </message>
     <message>
         <source>Stretched</source>
-        <translation>Roztiahnuť</translation>
+        <translation>Estirado</translation>
     </message>
     <message>
         <source>Scaled</source>
-        <translation>Zmenšiť</translation>
+        <translation>A escala</translation>
     </message>
     <message>
         <source>Zoomed</source>
-        <translation>Priblížiť</translation>
+        <translation>Ampliado</translation>
     </message>
     <message>
         <source>Opacity:</source>
-        <translation>Nepriehľadnosť:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Position:</source>
-        <translation>Pozícia:</translation>
+        <translation>Posición:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation>Šírka:</translation>
+        <translation>Anchura:</translation>
     </message>
     <message>
         <source>Round Text Background Corners</source>
-        <translation>Oblé rohy pozadia textu</translation>
+        <translation>Esquinas redondeadas de fondo de texto</translation>
     </message>
     <message>
         <source>Radius:</source>
-        <translation>Polomer:</translation>
+        <translation>Radio:</translation>
     </message>
     <message>
         <source>Blur Text Background</source>
-        <translation>Rozmazané pozadie textu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text Background Drop Shadow</source>
-        <translation>Tieň pozadia textu</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Vertical Offset:</source>
-        <translation>Zvislý posun:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation>Okraje</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Window:</source>
-        <translation>Okno:</translation>
+        <translation>Ventana:</translation>
     </message>
     <message>
         <source>Page:</source>
-        <translation>Strana:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Indent first line</source>
-        <translation>Odsadiť prvý riadok</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Above:</source>
-        <translation>Nad:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Below:</source>
-        <translation>Pod:</translation>
+        <translation>Por debajo:</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Odstrániť</translation>
+        <translation>Eliminar</translation>
     </message>
     <message>
         <source>Edit Theme</source>
-        <translation>Upraviť tému</translation>
+        <translation>Editar Tema</translation>
     </message>
     <message>
         <source>Window Background</source>
-        <translation>Pozadie okna</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Typ:</translation>
+        <translation>Tipo:</translation>
     </message>
     <message>
         <source>Color:</source>
-        <translation>Farba:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Image:</source>
-        <translation>Obrázok:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source> pixels</source>
-        <translation>pixelov</translation>
+        <translation> píxeles</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Zarovnať vľavo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text Background</source>
-        <translation>Pozadie textu</translation>
+        <translation>Fondo de Texto</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Zarovnať vpravo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Text</source>
-        <translation>Text</translation>
+        <translation>Texto</translation>
     </message>
     <message>
         <source>Font:</source>
-        <translation>Písmo:</translation>
+        <translation>Tipo de letra:</translation>
     </message>
     <message>
         <source>Misspelled:</source>
-        <translation>Chybne napísané:</translation>
+        <translation>Faltas ortográficas:</translation>
     </message>
     <message>
         <source>Line Spacing</source>
-        <translation>Riadkovanie</translation>
+        <translation>Interlineado</translation>
     </message>
     <message>
         <source>Single</source>
-        <translation>Jednoduché</translation>
+        <translation type="unfinished">Simples</translation>
     </message>
     <message>
         <source>1.5 Lines</source>
-        <translation>1,5 riadka</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Double</source>
-        <translation>Dvojité</translation>
+        <translation>Doble</translation>
     </message>
     <message>
         <source>Proportional</source>
-        <translation>Proporcionálne</translation>
+        <translation>Proporcional</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation>Výška:</translation>
+        <translation>Altura:</translation>
     </message>
     <message>
         <source>Paragraph Spacing</source>
-        <translation>Odstupy medzi odstavcami</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Tab Width:</source>
-        <translation>Šírka zarážky:</translation>
+        <translation>Ancho de tabulación:</translation>
     </message>
     <message>
         <source>New Theme</source>
-        <translation>Nová téma</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ThemeManager</name>
     <message>
         <source>Themes</source>
-        <translation>Témy</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Default</source>
-        <translation>Prednastavený</translation>
+        <translation>Predeterminado</translation>
     </message>
     <message>
         <source>Gentle Blues</source>
-        <translation>Nežné blues</translation>
+        <translation>Blues Apacible</translation>
     </message>
     <message>
         <source>Old School</source>
-        <translation>Stará škola</translation>
+        <translation>Vieja Escuela</translation>
     </message>
     <message>
         <source>Space Dreams</source>
-        <translation>Vesmírne sny</translation>
+        <translation>Sueños Espaciales</translation>
     </message>
     <message>
         <source>Writing Desk</source>
-        <translation>Písací stôl</translation>
+        <translation>Escritorio</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Nový</translation>
+        <translation>Nueva</translation>
     </message>
     <message>
         <source>Duplicate</source>
-        <translation>Kópia</translation>
+        <translation>Duplicar</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Vlastný</translation>
+        <translation>Personalizar</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Upraviť</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Zmazať</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation>Importovať</translation>
+        <translation>Importar</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation>Exportovať</translation>
+        <translation>Exportar</translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Otázka</translation>
+        <translation>Confirmación</translation>
     </message>
     <message>
         <source>Delete theme &apos;%1&apos;?</source>
-        <translation>Zmazať tému &apos;%1&apos;?</translation>
+        <translation>¿Borrar tema &apos;%1&apos;?</translation>
     </message>
     <message>
         <source>Themes (%1)</source>
-        <translation>Témy (%1)</translation>
+        <translation>Temas (%1)</translation>
     </message>
     <message>
         <source>Import Theme</source>
-        <translation>Importovať tému</translation>
+        <translation>Importar tema</translation>
     </message>
     <message>
         <source>Export Theme</source>
-        <translation>Exportovať tému</translation>
+        <translation>Exportar tema</translation>
     </message>
     <message>
         <source>Bitter Skies</source>
-        <translation type="unfinished"></translation>
+        <translation>Cielos Amargos</translation>
     </message>
     <message>
         <source>Enchantment</source>
-        <translation type="unfinished"></translation>
+        <translation>Encantamiento</translation>
     </message>
     <message>
         <source>Spy Games</source>
-        <translation type="unfinished"></translation>
+        <translation>Juegos de Espías.</translation>
     </message>
     <message>
         <source>Tranquility</source>
-        <translation type="unfinished"></translation>
+        <translation>Tranquilidad</translation>
     </message>
 </context>
 <context>
@@ -1208,43 +1202,43 @@
     </message>
     <message>
         <source>Question</source>
-        <translation>Otázka</translation>
+        <translation>Confirmación</translation>
     </message>
     <message>
         <source>Delete timer?</source>
-        <translation>Zmazať časovač?</translation>
+        <translation>¿Quiere eliminar la alarma?</translation>
     </message>
     <message>
         <source>&lt;b&gt;Words:&lt;/b&gt; %L1</source>
-        <translation>&lt;b&gt;Slová:&lt;/b&gt; %L1</translation>
+        <translation>&lt;b&gt;Palabras:&lt;/b&gt; %L1</translation>
     </message>
     <message>
         <source>&lt;b&gt;Pages:&lt;/b&gt; %L1</source>
-        <translation>&lt;b&gt;Strany:&lt;/b&gt; %L1</translation>
+        <translation>&lt;b&gt;Páginas:&lt;/b&gt; %L1</translation>
     </message>
     <message>
         <source>&lt;b&gt;Paragraphs:&lt;/b&gt; %L1</source>
-        <translation>&lt;b&gt;Odstavce:&lt;/b&gt; %L1</translation>
+        <translation>&lt;b&gt;Párrafos:&lt;/b&gt; %L1</translation>
     </message>
     <message>
         <source>&lt;b&gt;Characters:&lt;/b&gt; %L1 / %L2</source>
-        <translation>&lt;b&gt;Znaky:&lt;/b&gt; %L1 / %L2</translation>
+        <translation>&lt;b&gt;Caracteres:&lt;/b&gt; %L1 / %L2</translation>
     </message>
     <message>
         <source>Set Delay</source>
-        <translation>Nastaviť oneskorenie</translation>
+        <translation>Establecer tiempo</translation>
     </message>
     <message>
         <source>Set Time</source>
-        <translation>Nastaviť čas</translation>
+        <translation>Establecer hora</translation>
     </message>
     <message>
         <source>Delay:</source>
-        <translation>Oneskorenie:</translation>
+        <translation>Tiempo:</translation>
     </message>
     <message>
         <source>Time:</source>
-        <translation>Čas:</translation>
+        <translation>Hora:</translation>
     </message>
     <message>
         <source>HH:mm:ss</source>
@@ -1252,23 +1246,23 @@
     </message>
     <message>
         <source>Alarm</source>
-        <translation>Upozornenie:</translation>
+        <translation>Alarma</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Typ:</translation>
+        <translation>Tipo:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Správa:</translation>
+        <translation>Nota:</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Upraviť</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Zmazať</translation>
+        <translation>Eliminar</translation>
     </message>
 </context>
 <context>
@@ -1279,30 +1273,30 @@
     </message>
     <message>
         <source>No timers running</source>
-        <translation>Nebežia žiadne časovače</translation>
+        <translation>No hay ninguna alarma activada</translation>
     </message>
 </context>
 <context>
     <name>TimerManager</name>
     <message>
         <source>Timers</source>
-        <translation>Časovače</translation>
+        <translation>Alarmas</translation>
     </message>
     <message>
         <source>New</source>
-        <translation>Nový</translation>
+        <translation>Nueva</translation>
     </message>
     <message>
         <source>Recent</source>
-        <translation>Posledný použitý</translation>
+        <translation>Recientes</translation>
     </message>
     <message>
         <source>Question</source>
-        <translation>Otázka</translation>
+        <translation>Confirmación</translation>
     </message>
     <message>
         <source>Cancel editing timers?</source>
-        <translation>Zrušiť úpravu časovačov?</translation>
+        <translation>¿Quiere cancelar la edición de las alarmas?</translation>
     </message>
     <message>
         <source>+HH:mm:ss</source>
@@ -1317,23 +1311,23 @@
     <name>Window</name>
     <message>
         <source>Loading themes</source>
-        <translation>Načítavanie tém</translation>
+        <translation>Cargando temas</translation>
     </message>
     <message>
         <source>Loading sounds</source>
-        <translation>Načítavanie zvukov</translation>
+        <translation>Cargando sonidos</translation>
     </message>
     <message>
         <source>Untitled</source>
-        <translation>Bez názvu</translation>
+        <translation>Sin título</translation>
     </message>
     <message>
         <source>Open File</source>
-        <translation>Otvoriť súbor</translation>
+        <translation>Abrir archivo</translation>
     </message>
     <message>
         <source>About FocusWriter</source>
-        <translation>O programe FocusWriter</translation>
+        <translation>Acerca de FocusWriter</translation>
     </message>
     <message>
         <source>FocusWriter</source>
@@ -1341,359 +1335,359 @@
     </message>
     <message>
         <source>A simple fullscreen word processor</source>
-        <translation>Jednoduchý celoobrazovkový textový editor.</translation>
+        <translation>Un procesador de textos simple a pantalla completa</translation>
     </message>
     <message>
         <source>Copyright &amp;copy; 2008-%1 Graeme Gott</source>
-        <translation>Práva vyhradené &amp;copy; 2008-%1 Graeme Gott</translation>
+        <translation>Copyright &amp;copy; 2008-%1 Graeme Gott</translation>
     </message>
     <message>
         <source>Released under the &lt;a href=%1&gt;GPL 3&lt;/a&gt; license</source>
-        <translation>Vydané pod licenciou &lt;a href=%1&gt;GPL 3&lt;/a&gt;</translation>
+        <translation>Publicado con licencia &lt;a href=%1&gt;GPL 3&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Uses icons from the &lt;a href=%1&gt;Oxygen&lt;/a&gt; icon theme</source>
-        <translation>Používa ikony zo sady ikon &lt;a href=%1&gt;Oxygen&lt;/a&gt;</translation>
+        <translation>Iconos del tema &lt;a href=%1&gt;Oxygen&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Used under the &lt;a href=%1&gt;LGPL 3&lt;/a&gt; license</source>
-        <translation>Použité pod licenciou &lt;a href=%1&gt;LGPL 3&lt;/a&gt;</translation>
+        <translation>Usados según la licencia &lt;a href=%1&gt;LGPL 3&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Characters: %L1 / %L2</source>
-        <translation>Znaky: %L1 / %L2</translation>
+        <translation>Caracteres: %L1 / %L2</translation>
     </message>
     <message>
         <source>Pages: %L1</source>
-        <translation>Strany: %L1</translation>
+        <translation>Páginas: %L1</translation>
     </message>
     <message>
         <source>Paragraphs: %L1</source>
-        <translation>Odstavce: %L1</translation>
+        <translation>Párrafos: %L1</translation>
     </message>
     <message>
         <source>Words: %L1</source>
-        <translation>Slová: %L1</translation>
+        <translation>Palabras: %L1</translation>
     </message>
     <message>
         <source>Opening %1</source>
-        <translation>Otváranie %1</translation>
+        <translation>Abriendo %1</translation>
     </message>
     <message>
         <source>(Untitled %1)</source>
-        <translation>(Bez názvu %1)</translation>
+        <translation>(Sin título %1)</translation>
     </message>
     <message>
         <source>List all documents</source>
-        <translation>Vypísať všetky dokumenty</translation>
+        <translation>Listar todos los documentos</translation>
     </message>
     <message>
         <source>Switch to Next Document</source>
-        <translation>Prepnúť na ďalší dokument</translation>
+        <translation>Cambiar al documento siguiente</translation>
     </message>
     <message>
         <source>Switch to Previous Document</source>
-        <translation>Prepnúť na predchádzajúci dokument</translation>
+        <translation>Cambiar al documento anterior</translation>
     </message>
     <message>
         <source>Switch to First Document</source>
-        <translation>Prepnúť na prvý dokument</translation>
+        <translation>Cambiar al primer documento</translation>
     </message>
     <message>
         <source>Switch to Last Document</source>
-        <translation>Prepnúť na posledný dokument</translation>
+        <translation>Cambiar al último documento</translation>
     </message>
     <message>
         <source>Switch to Document %1</source>
-        <translation>Prepnúť na dokument %1</translation>
+        <translation>Cambiar al documento %1</translation>
     </message>
     <message>
         <source>Loading settings</source>
-        <translation>Načítavanie nastavení</translation>
+        <translation>Cargando configuración</translation>
     </message>
     <message>
         <source>Emergency cache is not writable.</source>
-        <translation>Nie je možné zapisovať do pohotovostnej vyrovnávacej pamäti.</translation>
+        <translation>No se puede escribir en la caché de emergencia.</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Upozornenie</translation>
+        <translation>Advertencia</translation>
     </message>
     <message>
         <source>FocusWriter was not shut down cleanly.</source>
-        <translation>Program FocusWriter nebol riadne ukončený.</translation>
+        <translation>FocusWriter no se cerró correctamente.</translation>
     </message>
     <message>
         <source>Restore from the emergency cache?</source>
-        <translation>Obnoviť z vyrovnávacej pamäti. </translation>
+        <translation>¿Desea restaurarlo desde la caché de emergencia?</translation>
     </message>
     <message>
         <source>Some files could not be opened.</source>
-        <translation>Niektoré súbory nemohli byť otvorené.</translation>
+        <translation>Algunos archivos no se pueden abrir.</translation>
     </message>
     <message>
         <source>Some files were opened Read-Only.</source>
-        <translation>Niektoré súbory boli otvorené iba na čítanie. </translation>
+        <translation>Algunos archivos se abrieron como solo lectura.</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is newer than the cached copy.</source>
-        <translation>Súbor &apos;%1&apos; je novší ako kópia vo vyrovnávacej pamäti.</translation>
+        <translation>&quot;%1&quot; es más reciente que la copia en caché.</translation>
     </message>
     <message>
         <source>Overwrite newer file?</source>
-        <translation>Prepísať novší súbor?</translation>
+        <translation>¿Desea sobrescribir el archivo más reciente?</translation>
     </message>
     <message>
         <source>Save Changes?</source>
-        <translation>Uložiť zmeny?</translation>
+        <translation>¿Guardar Cambios?</translation>
     </message>
     <message>
         <source>Save changes to the file &apos;%1&apos; before closing?</source>
-        <translation>Uložiť zmeny do súboru &apos;%1&apos; pred zatvorením?</translation>
+        <translation>¿Guardar cambios al archivo &apos;%1&apos; antes de cerrar?</translation>
     </message>
     <message>
         <source>Your changes will be lost if you don&apos;t save them.</source>
-        <translation>Vaše zmeny budú stratené ak ich neuložíte.</translation>
+        <translation>Tus cambios se perderán si no los guardas.</translation>
     </message>
     <message>
         <source>Unable to load typewriter sounds.</source>
-        <translation>Nie je možné načítať zvuky písacieho stroja.</translation>
+        <translation>No se pueden cargar los sonidos de máquina de escribir.</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Súbor</translation>
+        <translation>&amp;Archivo</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nový</translation>
+        <translation>&amp;Nuevo</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>&amp;Otvoriť...</translation>
+        <translation>A&amp;brir...</translation>
     </message>
     <message>
         <source>Reloa&amp;d</source>
-        <translation>Opätovne &amp;načítať</translation>
+        <translation>Vol&amp;ver a cargar</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>&amp;Uložiť</translation>
+        <translation>&amp;Guardar</translation>
     </message>
     <message>
         <source>Save &amp;As...</source>
-        <translation>Uložiť &amp;ako...</translation>
+        <translation>G&amp;uardar como...</translation>
     </message>
     <message>
         <source>&amp;Rename...</source>
-        <translation>&amp;Premenovať...</translation>
+        <translation>&amp;Cambiar nombre...</translation>
     </message>
     <message>
         <source>Save A&amp;ll</source>
-        <translation>U&amp;ložiť všetko</translation>
+        <translation>Guardar &amp;todo</translation>
     </message>
     <message>
         <source>Manage Sessions</source>
-        <translation>Spravovať relácie</translation>
+        <translation>Gestionar sesiones</translation>
     </message>
     <message>
         <source>New Session</source>
-        <translation>Nová relácia</translation>
+        <translation>Nueva sesión</translation>
     </message>
     <message>
         <source>&amp;Print...</source>
-        <translation>&amp;Tlač...</translation>
+        <translation>&amp;Imprimir...</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation>&amp;Zavrieť</translation>
+        <translation>C&amp;errar</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation>S&amp;končiť</translation>
+        <translation>Sali&amp;r</translation>
     </message>
     <message>
         <source>Ctrl+Q</source>
-        <translation>Ctrl+Q</translation>
+        <translation>Ctrl + Q</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>Upra&amp;viť</translation>
+        <translation>&amp;Editar</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
-        <translation>&amp;Späť</translation>
+        <translation>&amp;Deshacer</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>&amp;Opakovať</translation>
+        <translation>&amp;Rehacer</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>Vys&amp;trihnúť</translation>
+        <translation>C&amp;ortar</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopírovať</translation>
+        <translation>&amp;Copiar</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Prilepiť</translation>
+        <translation>&amp;Pegar</translation>
     </message>
     <message>
         <source>Paste &amp;Unformatted</source>
-        <translation>Prilepiť &amp;bez formátovania</translation>
+        <translation>Pegar sin &amp;formato</translation>
     </message>
     <message>
         <source>Ctrl+Shift+V</source>
-        <translation>Ctrl+Shift+V</translation>
+        <translation>Ctrl + Mayús + V</translation>
     </message>
     <message>
         <source>Select &amp;All</source>
-        <translation>Vybrať &amp;všetko</translation>
+        <translation>&amp;Seleccionar todo</translation>
     </message>
     <message>
         <source>Select &amp;Scene</source>
-        <translation>Vybrať &amp;scénu</translation>
+        <translation>Seleccionar &amp;escena</translation>
     </message>
     <message>
         <source>Ctrl+Shift+A</source>
-        <translation>Ctrl+Shift+A</translation>
+        <translation>Ctrl + Mayús + A</translation>
     </message>
     <message>
         <source>Fo&amp;rmat</source>
-        <translation>Fo&amp;rmátovanie</translation>
+        <translation>&amp;Formato</translation>
     </message>
     <message>
         <source>&amp;Bold</source>
-        <translation>Tu&amp;čné</translation>
+        <translation>&amp;Negrita</translation>
     </message>
     <message>
         <source>&amp;Italic</source>
-        <translation>K&amp;urzivá</translation>
+        <translation>&amp;Cursiva</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>Po&amp;dčiarknuté</translation>
+        <translation>&amp;Subrayado</translation>
     </message>
     <message>
         <source>Stri&amp;kethrough</source>
-        <translation>Pr&amp;ečiarknuté</translation>
+        <translation>&amp;Tachado</translation>
     </message>
     <message>
         <source>Ctrl+K</source>
-        <translation>Ctrl+K</translation>
+        <translation>Ctrl + K</translation>
     </message>
     <message>
         <source>Sup&amp;erscript</source>
-        <translation>Horný inde&amp;x</translation>
+        <translation>Su&amp;períndice</translation>
     </message>
     <message>
         <source>Ctrl+^</source>
-        <translation>Ctrl+^</translation>
+        <translation>Ctrl + ^</translation>
     </message>
     <message>
         <source>&amp;Subscript</source>
-        <translation>Dolný i&amp;ndex</translation>
+        <translation>Su&amp;bíndice</translation>
     </message>
     <message>
         <source>Ctrl+_</source>
-        <translation>Ctrl+_</translation>
+        <translation>Ctrl + _</translation>
     </message>
     <message>
         <source>Align &amp;Left</source>
-        <translation>Zarovnať &amp;vľavo</translation>
+        <translation>Alinear a la i&amp;zquierda</translation>
     </message>
     <message>
         <source>Ctrl+{</source>
-        <translation>Ctrl+{</translation>
+        <translation>Caracteres: 0</translation>
     </message>
     <message>
         <source>Align &amp;Center</source>
-        <translation>Zarovnať na st&amp;red</translation>
+        <translation>Centra&amp;r</translation>
     </message>
     <message>
         <source>Ctrl+|</source>
-        <translation>Ctrl+|</translation>
+        <translation>Ctrl + |</translation>
     </message>
     <message>
         <source>Align &amp;Right</source>
-        <translation>Zarovnať v&amp;pravo</translation>
+        <translation>Alinear a la &amp;derecha</translation>
     </message>
     <message>
         <source>Ctrl+}</source>
-        <translation>Ctrl+}</translation>
+        <translation>Ctrl + }</translation>
     </message>
     <message>
         <source>Align &amp;Justify</source>
-        <translation>Zarovnať do bl&amp;oku</translation>
+        <translation>&amp;Justificar</translation>
     </message>
     <message>
         <source>Ctrl+J</source>
-        <translation>Ctrl+J</translation>
+        <translation>Ctrl + J</translation>
     </message>
     <message>
         <source>&amp;Decrease Indent</source>
-        <translation>Z&amp;menšiť odsadenie</translation>
+        <translation>&amp;Disminuir sangría</translation>
     </message>
     <message>
         <source>Ctrl+&lt;</source>
-        <translation>Ctrl+&lt;</translation>
+        <translation>Ctrl + &lt;</translation>
     </message>
     <message>
         <source>I&amp;ncrease Indent</source>
-        <translation>Z&amp;väčšiť odsadenie</translation>
+        <translation>&amp;Aumentar sangría</translation>
     </message>
     <message>
         <source>Ctrl+&gt;</source>
-        <translation>Ctrl+&gt;</translation>
+        <translation>Ctrl + &gt;</translation>
     </message>
     <message>
         <source>Le&amp;ft to Right Block</source>
-        <translation>Bl&amp;ok zľava doprava</translation>
+        <translation>&amp;Escribir de izquierda a derecha</translation>
     </message>
     <message>
         <source>Ri&amp;ght to Left Block</source>
-        <translation>B&amp;lok sprava doľava</translation>
+        <translation>Escribir de derec&amp;ha a izquierda</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Nástroje</translation>
+        <translation>&amp;Herramientas</translation>
     </message>
     <message>
         <source>&amp;Find...</source>
-        <translation>Ná&amp;jsť...</translation>
+        <translation>&amp;Buscar...</translation>
     </message>
     <message>
         <source>Find &amp;Next</source>
-        <translation>Nájsť &amp;ďalší</translation>
+        <translation>Buscar &amp;siguiente</translation>
     </message>
     <message>
         <source>Find Pre&amp;vious</source>
-        <translation>Nájsť &amp;predchádzajúci</translation>
+        <translation>Buscar &amp;anterior</translation>
     </message>
     <message>
         <source>&amp;Replace...</source>
-        <translation>Na&amp;hradiť...</translation>
+        <translation>&amp;Reemplazar...</translation>
     </message>
     <message>
         <source>Ctrl+R</source>
-        <translation>Ctrl+R</translation>
+        <translation>Ctrl + R</translation>
     </message>
     <message>
         <source>Smart &amp;Quotes</source>
-        <translation>Inteligentné ú&amp;vodzovky</translation>
+        <translation>&amp;Comillas tipográficas</translation>
     </message>
     <message>
         <source>Update &amp;Document</source>
-        <translation>Aktualizovať &amp;dokument</translation>
+        <translation>Actualizar &amp;documento</translation>
     </message>
     <message>
         <source>Update &amp;Selection</source>
-        <translation>Aktualizovať &amp;výber</translation>
+        <translation>Actualizar &amp;selección</translation>
     </message>
     <message>
         <source>&amp;Spelling...</source>
-        <translation>&amp;Pravopis...</translation>
+        <translation>&amp;Ortografía...</translation>
     </message>
     <message>
         <source>F7</source>
@@ -1701,39 +1695,39 @@
     </message>
     <message>
         <source>Set &amp;Language...</source>
-        <translation>Nastaviť &amp;jazyk...</translation>
+        <translation>Establecer Idioma...</translation>
     </message>
     <message>
         <source>&amp;Timers...</source>
-        <translation>Čas&amp;ovače...</translation>
+        <translation>&amp;Alarmas...</translation>
     </message>
     <message>
         <source>S&amp;ymbols...</source>
-        <translation>S&amp;ymboly...</translation>
+        <translation>Símb&amp;olos…</translation>
     </message>
     <message>
         <source>&amp;Daily Progress</source>
-        <translation>&amp;Denný pokrok</translation>
+        <translation>Progreso &amp;Diario</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Nastavenia</translation>
+        <translation>&amp;Configuración</translation>
     </message>
     <message>
         <source>Show &amp;Toolbar</source>
-        <translation>Zobraziť p&amp;anel nástrojov</translation>
+        <translation>Mo&amp;strar barra de herramientas</translation>
     </message>
     <message>
         <source>Show &amp;Menu Icons</source>
-        <translation>Zobraziť &amp;ikony ponuky</translation>
+        <translation>M&amp;ostrar iconos del menú</translation>
     </message>
     <message>
         <source>F&amp;ocused Text</source>
-        <translation>Za&amp;meraný text</translation>
+        <translation>En&amp;focar el texto</translation>
     </message>
     <message>
         <source>&amp;Fullscreen</source>
-        <translation>&amp;Celá obrazovka</translation>
+        <translation>&amp;Pantalla completa</translation>
     </message>
     <message>
         <source>F11</source>
@@ -1745,115 +1739,115 @@
     </message>
     <message>
         <source>M&amp;inimize</source>
-        <translation>M&amp;inimalizovať</translation>
+        <translation>&amp;Minimizar</translation>
     </message>
     <message>
         <source>Ctrl+M</source>
-        <translation>Ctrl+M</translation>
+        <translation>Ctrl + M</translation>
     </message>
     <message>
         <source>&amp;Themes...</source>
-        <translation>&amp;Témy...</translation>
+        <translation>&amp;Temas...</translation>
     </message>
     <message>
         <source>&amp;Preferences...</source>
-        <translation>&amp;Predvoľby...</translation>
+        <translation>&amp;Preferencias...</translation>
     </message>
     <message>
         <source>Focus Off</source>
-        <translation>Vypnúť zameranie</translation>
+        <translation>Desactivar foco</translation>
     </message>
     <message>
         <source>Focus One Line</source>
-        <translation>Zamerať jeden riadok</translation>
+        <translation>Enfocar una línea</translation>
     </message>
     <message>
         <source>Focus Three Lines</source>
-        <translation>Zamerať tri riadky</translation>
+        <translation>Enfocar tres líneas</translation>
     </message>
     <message>
         <source>&amp;Paragraph</source>
-        <translation>O&amp;dstavec</translation>
+        <translation>&amp;Párrafo</translation>
     </message>
     <message>
         <source>Focus Paragraph</source>
-        <translation>Zamerať odstavec</translation>
+        <translation>Enfocar un párrafo</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Nápoveda</translation>
+        <translation>&amp;Ayuda</translation>
     </message>
     <message>
         <source>Application &amp;Language...</source>
-        <translation>Jazyk p&amp;rogramu...</translation>
+        <translation>&amp;Idioma de la aplicación...</translation>
     </message>
     <message>
         <source>Some files were unsupported and could not be opened.</source>
-        <translation>Niektoré súbory neboli podporované a nemohli byť otvorené.</translation>
+        <translation>Algunos archivos no son compatibles y no pueden abrirse.</translation>
     </message>
     <message>
         <source>&amp;Off</source>
-        <translation>&amp;Vypnuté</translation>
+        <translation>&amp;Desactivar</translation>
     </message>
     <message>
         <source>One &amp;Line</source>
-        <translation>Jeden &amp;riadok</translation>
+        <translation>Una &amp;línea</translation>
     </message>
     <message>
         <source>&amp;Three Lines</source>
-        <translation>&amp;Tri riadky</translation>
+        <translation>&amp;Tres líneas</translation>
     </message>
     <message>
         <source>&amp;About</source>
-        <translation>&amp;O programe</translation>
+        <translation>A&amp;cerca</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>O &amp;Qt</translation>
+        <translation>Ac&amp;erca de Qt</translation>
     </message>
     <message>
         <source>Pa&amp;ge Setup...</source>
-        <translation>Nastavenie &amp;strany</translation>
+        <translation>Configuración de Pá&amp;gina...</translation>
     </message>
     <message>
         <source>&amp;Heading</source>
-        <translation>&amp;Nadpis</translation>
+        <translation>Encabezado</translation>
     </message>
     <message>
         <source>Heading &amp;1</source>
-        <translation>Nadpis &amp;1</translation>
+        <translation>Encabezado &amp;1</translation>
     </message>
     <message>
         <source>Heading &amp;2</source>
-        <translation>Nadpis &amp;2</translation>
+        <translation>Encabezado &amp;2</translation>
     </message>
     <message>
         <source>Heading &amp;3</source>
-        <translation>Nadpis &amp;3</translation>
+        <translation>Encabezado &amp;3</translation>
     </message>
     <message>
         <source>Heading &amp;4</source>
-        <translation>Nadpis &amp;4</translation>
+        <translation>Encabezado &amp;4</translation>
     </message>
     <message>
         <source>Heading &amp;5</source>
-        <translation>Nadpis &amp;5</translation>
+        <translation>Encabezado &amp;5</translation>
     </message>
     <message>
         <source>Heading &amp;6</source>
-        <translation>Nadpis &amp;6</translation>
+        <translation>Encabezado &amp;6</translation>
     </message>
     <message>
         <source>&amp;Normal</source>
-        <translation>Normálny</translation>
+        <translation>&amp;Normal</translation>
     </message>
     <message>
         <source>Update Document Smart Quotes</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizar Citas Inteligentes del Documento</translation>
     </message>
     <message>
         <source>Update Selection Smart Quotes</source>
-        <translation type="unfinished"></translation>
+        <translation>Actualizar Citas Inteligentes de la Selección</translation>
     </message>
     <message>
         <source>Ctrl+Shift+`</source>

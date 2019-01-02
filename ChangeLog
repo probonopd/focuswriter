@@ -1,3 +1,33 @@
+1.7.1
+-----
+* FIXED: Did not launch when incorrect lock file was found.
+
+1.7.0
+-----
+* FIXED: Daily progress percentages were not locale aware.
+* FIXED: Scene list text was incorrect with Qt 5.12
+* Show current streak for previous day.
+* Improved detection of running instance.
+* Updated included hunspell.
+* Updated dictionaries.
+* Translation updates: Czech, Dutch, Hungarian.
+
+1.6.16
+------
+* FIXED: Could not always save to remote drives.
+* FIXED: Could not browse shortcuts in Windows file dialogs.
+
+1.6.15
+------
+* FIXED: Automatic high dpi support.
+* Translation updates: Galician, Spanish.
+
+1.6.14
+------
+* FIXED: Regression where emergency cache didn't run.
+* Renamed NEWS to ChangeLog.
+* Translation updates: Bosnian.
+
 1.6.13
 ------
 * Updated dictionaries.

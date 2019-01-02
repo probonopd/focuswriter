@@ -3,18 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Heimen Stoffels <vistausss@outlook.com>, 2018
-# RobertBorst <webmaster@fam-borst.nl>, 2014,2018
+# pazos <paziusss@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: FocusWriter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-14 20:43+0000\n"
-"PO-Revision-Date: 2018-09-26 19:12+0000\n"
-"Last-Translator: RobertBorst <webmaster@fam-borst.nl>\n"
-"Language-Team: Dutch (http://www.transifex.com/gottcode/focuswriter/language/"
-"nl/)\n"
-"Language: nl\n"
+"PO-Revision-Date: 2018-07-10 13:40+0000\n"
+"Last-Translator: pazos <paziusss@gmail.com>\n"
+"Language-Team: Galician (http://www.transifex.com/gottcode/focuswriter/"
+"language/gl/)\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +25,7 @@ msgstr "FocusWriter"
 
 #: ../focuswriter.appdata.xml.in:7
 msgid "Fullscreen word processor"
-msgstr "Schermvullende tekstverwerker"
+msgstr "Procesador de texto a pantalla completa"
 
 #: ../focuswriter.appdata.xml.in:10
 msgid ""
@@ -35,10 +34,6 @@ msgid ""
 "screen, allowing the program to have a familiar look and feel to it while "
 "still getting out of the way so that you can immerse yourself in your work."
 msgstr ""
-"Focuswriter is een eenvoudige, afleidingsvrije tekstverwerker. Het verbergt "
-"de gebruikersomgeving totdat de cursor naar de rand van het scherm wordt "
-"geschoven. Dit zorgt er voor dat de  applicatie vertrouwd oogt maar "
-"daarnaast verbergt het zich als je je volledig op je werk wilt focussen."
 
 #: ../focuswriter.appdata.xml.in:11
 msgid ""
@@ -47,10 +42,6 @@ msgid ""
 "features on-the-fly updating statistics, daily goals, multiple open "
 "documents, spell-checking, and much more."
 msgstr ""
-"Focuswriter stelt je in staat om de applicatie aan te passen aan de wensen "
-"van lettertype, kleuren en achtergrondafbeeldingen om de gewenste sfeer te "
-"creëren. Het beschikt ook over direct bijgewerkte statistieken, dagelijkse "
-"doelen, meerdere geopende documenten, spellingcorrectie en nog veel meer."
 
 #: ../focuswriter.appdata.xml.in:12
 msgid ""
@@ -58,13 +49,11 @@ msgid ""
 "automatically load and position you where you last left off so that you can "
 "immediately jump back in."
 msgstr ""
-"Daarnaast laadt de applicatie, na het opstarten, automatisch je huidige werk "
-"op de laatst bekende locatie zodat je direct verder kunt."
 
 #: ../focuswriter.desktop.in:5
 msgid "Fullscreen Word Processor"
-msgstr "Schermvullende tekstverwerker"
+msgstr "Procesador de texto a pantalla completa"
 
 #: ../focuswriter.desktop.in:6
 msgid "Write without distractions"
-msgstr "Schrijf zonder afgeleid te worden"
+msgstr "Escribe sen distracións"

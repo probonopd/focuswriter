@@ -159,6 +159,7 @@ Window::Window(const QStringList& command_line_files) :
 	// Set up cache timer
 	m_save_timer = new QTimer(this);
 	m_save_timer->setInterval(300000);
+	connect(m_save_timer, SIGNAL(timeout()), m_documents, SLOT(autoCache()));
 	connect(m_save_timer, SIGNAL(timeout()), m_daily_progress, SLOT(save()));
 
 	// Set up details
@@ -674,7 +675,7 @@ void Window::openDocument()
 	QString default_path = QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation);
 	QString path = settings.value("Save/Location", default_path).toString();
 
-	QStringList filenames = QFileDialog::getOpenFileNames(window(), tr("Open File"), path, FormatManager::filters().join(";;"), 0, QFileDialog::DontResolveSymlinks);
+	QStringList filenames = QFileDialog::getOpenFileNames(window(), tr("Open File"), path, FormatManager::filters().join(";;"));
 	if (!filenames.isEmpty()) {
 		addDocuments(filenames, filenames);
 		settings.setValue("Save/Location", QFileInfo(filenames.last()).absolutePath());

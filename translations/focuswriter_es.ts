@@ -30,17 +30,17 @@
 <context>
     <name>DailyProgress</name>
     <message numerus="yes">
-        <source>%1% of %Ln minute(s)</source>
+        <source>%L1% of %Ln minute(s)</source>
         <translation>
-            <numerusform>%1% de %Ln minuto</numerusform>
-            <numerusform>%1% de %Ln minutos</numerusform>
+            <numerusform>%L1% de %Ln minuto</numerusform>
+            <numerusform>%L1% de %Ln minutos</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <source>%1% of %Ln word(s)</source>
+        <source>%L1% of %Ln word(s)</source>
         <translation>
-            <numerusform>%1% de %Ln palabra</numerusform>
-            <numerusform>%1% de %Ln palabras</numerusform>
+            <numerusform>%L1% de %Ln palabra</numerusform>
+            <numerusform>%L1% de %Ln palabras</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -70,11 +70,11 @@
     </message>
     <message>
         <source>Longest streak</source>
-        <translation type="unfinished"></translation>
+        <translation>Racha mas larga</translation>
     </message>
     <message>
         <source>Current streak</source>
-        <translation type="unfinished"></translation>
+        <translation>Racha actual</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -95,15 +95,15 @@
 <context>
     <name>DailyProgressLabel</name>
     <message>
-        <source>%1% of daily goal</source>
-        <translation>%1% de meta diaria</translation>
+        <source>%L1% of daily goal</source>
+        <translation>%L1% de meta diaria</translation>
     </message>
 </context>
 <context>
     <name>DictionaryDialog</name>
     <message>
         <source>Set Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Establecer idioma</translation>
     </message>
 </context>
 <context>
@@ -114,7 +114,7 @@
     </message>
     <message>
         <source>%1 (Read-Only)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (Solo lectura)</translation>
     </message>
     <message>
         <source>Sorry</source>
@@ -142,11 +142,11 @@
     </message>
     <message>
         <source>Reload File?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Recargar archivo?</translation>
     </message>
     <message>
         <source>Reload the file &apos;%1&apos; from disk?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Recargar el archivo &apos;%1&apos; desde el disco?</translation>
     </message>
     <message>
         <source>All unsaved changes will be lost.</source>
@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>The file &apos;%1&apos; was changed by another program.</source>
-        <translation type="unfinished"></translation>
+        <translation>El archivo &apos;%1&apos; fue modificado por otro programa.</translation>
     </message>
     <message>
         <source>Do you want to reload the file?</source>
@@ -285,31 +285,31 @@
     <name>FormatManager</name>
     <message>
         <source>OpenDocument Text</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>OpenDocument Flat XML</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto OpenDocument</translation>
     </message>
     <message>
         <source>Office Open XML</source>
-        <translation type="unfinished"></translation>
+        <translation>XML Office</translation>
     </message>
     <message>
         <source>Rich Text Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto Enriquecido</translation>
     </message>
     <message>
         <source>Plain Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Texto plano</translation>
     </message>
     <message>
         <source>All Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Todos los archivos</translation>
     </message>
     <message>
         <source>All Supported Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Todos los archivos soportados</translation>
+    </message>
+    <message>
+        <source>OpenDocument Flat XML</source>
+        <translation>XML plano OpenDocument</translation>
     </message>
 </context>
 <context>
@@ -361,7 +361,7 @@
     <name>OdtReader</name>
     <message>
         <source>Unable to open archive.</source>
-        <translation type="unfinished">No se puede abrir el archivador.</translation>
+        <translation>Incapaz de abrir el archivo.</translation>
     </message>
 </context>
 <context>
@@ -512,55 +512,35 @@
     </message>
     <message>
         <source>Reset daily progress for today to zero?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Remove current dictionary?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Restablecer a cero el progreso diario actual?</translation>
     </message>
     <message>
         <source>Write byte order mark in plain text files</source>
-        <translation type="unfinished"></translation>
+        <translation>Escribir la marca de ordenación de bytes en archivos de texto plano</translation>
     </message>
     <message>
         <source>Default format:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>User Interface</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always show scrollbar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always show top bar</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Always show bottom bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Formato por defecto:</translation>
     </message>
     <message>
         <source>Reset Today</source>
-        <translation type="unfinished"></translation>
+        <translation>Restablecer hoy</translation>
     </message>
     <message>
         <source>History</source>
-        <translation type="unfinished"></translation>
+        <translation>Historial</translation>
     </message>
     <message>
         <source>Remember history</source>
-        <translation type="unfinished"></translation>
+        <translation>Recordar historial</translation>
     </message>
     <message>
         <source>Show streaks</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar rachas</translation>
     </message>
     <message>
         <source>Minimum progress for streaks:</source>
-        <translation type="unfinished"></translation>
+        <translation>Progreso mínimo para las rachas:</translation>
     </message>
     <message>
         <source>Detect word boundaries</source>
@@ -572,11 +552,11 @@
     </message>
     <message>
         <source>Count each letter as a word</source>
-        <translation type="unfinished"></translation>
+        <translation>Contar cada letra como una palabra</translation>
     </message>
     <message>
         <source>Page Count Algorithm</source>
-        <translation type="unfinished"></translation>
+        <translation>Algoritmo de conteo de palabras</translation>
     </message>
     <message>
         <source>Style</source>
@@ -658,19 +638,39 @@
         <source>Personal Dictionary</source>
         <translation>Diccionario personal</translation>
     </message>
+    <message>
+        <source>Remove current dictionary?</source>
+        <translation>¿Borrar el diccionario actual?</translation>
+    </message>
+    <message>
+        <source>User Interface</source>
+        <translation>Interfaz de usuario</translation>
+    </message>
+    <message>
+        <source>Always show scrollbar</source>
+        <translation>Mostrar la barra de desplazamiento siempre</translation>
+    </message>
+    <message>
+        <source>Always show top bar</source>
+        <translation>Mostrar la barra superior siempre</translation>
+    </message>
+    <message>
+        <source>Always show bottom bar</source>
+        <translation>Mostrar la barra inferior siempre</translation>
+    </message>
 </context>
 <context>
     <name>RtfReader</name>
     <message>
         <source>Not a supported RTF file.</source>
-        <translation type="unfinished"></translation>
+        <translation>No es un archivo RTF soportado.</translation>
     </message>
 </context>
 <context>
     <name>RtfTokenizer</name>
     <message>
         <source>Unexpectedly reached end of file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alcanzado el final del archivo de forma inesperada.</translation>
     </message>
 </context>
 <context>
@@ -739,7 +739,7 @@
     </message>
     <message>
         <source>Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplicar</translation>
     </message>
     <message>
         <source>Rename</source>
@@ -759,7 +759,7 @@
     </message>
     <message>
         <source>Duplicate Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplicar sesión</translation>
     </message>
     <message>
         <source>Rename Session</source>
@@ -876,7 +876,7 @@
     </message>
     <message>
         <source>Continue checking at beginning of file?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Continuar comprobación al principio del archivo?</translation>
     </message>
     <message>
         <source>Spell check complete.</source>
@@ -960,59 +960,59 @@
     </message>
     <message>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacidad:</translation>
     </message>
     <message>
         <source>Position:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posición:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anchura:</translation>
     </message>
     <message>
         <source>Round Text Background Corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Esquinas de fondo de texto redondeadas</translation>
     </message>
     <message>
         <source>Radius:</source>
-        <translation type="unfinished"></translation>
+        <translation>Radio:</translation>
     </message>
     <message>
         <source>Blur Text Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Desenfocar el fondo del texto</translation>
     </message>
     <message>
         <source>Text Background Drop Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Sombrear el fondo del texto</translation>
     </message>
     <message>
         <source>Vertical Offset:</source>
-        <translation type="unfinished"></translation>
+        <translation>Posición vertical:</translation>
     </message>
     <message>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Márgenes</translation>
     </message>
     <message>
         <source>Window:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ventana:</translation>
     </message>
     <message>
         <source>Page:</source>
-        <translation type="unfinished"></translation>
+        <translation>Página</translation>
     </message>
     <message>
         <source>Indent first line</source>
-        <translation type="unfinished"></translation>
+        <translation>Sangría en la primera línea</translation>
     </message>
     <message>
         <source>Above:</source>
-        <translation type="unfinished"></translation>
+        <translation>Por encima:</translation>
     </message>
     <message>
         <source>Below:</source>
-        <translation type="unfinished"></translation>
+        <translation>Por debajo:</translation>
     </message>
     <message>
         <source>Remove</source>
@@ -1020,11 +1020,11 @@
     </message>
     <message>
         <source>Edit Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Editar tema</translation>
     </message>
     <message>
         <source>Window Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Fondo de ventana</translation>
     </message>
     <message>
         <source>Type:</source>
@@ -1048,7 +1048,7 @@
     </message>
     <message>
         <source>Text Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Fondo del texto</translation>
     </message>
     <message>
         <source>Right</source>
@@ -1088,7 +1088,7 @@
     </message>
     <message>
         <source>Height:</source>
-        <translation type="unfinished"></translation>
+        <translation>Altura:</translation>
     </message>
     <message>
         <source>Paragraph Spacing</source>
@@ -1096,11 +1096,11 @@
     </message>
     <message>
         <source>Tab Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anchura de tabulación</translation>
     </message>
     <message>
         <source>New Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuevo tema</translation>
     </message>
 </context>
 <context>
@@ -1114,36 +1114,20 @@
         <translation>Predeterminado</translation>
     </message>
     <message>
-        <source>Bitter Skies</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Enchantment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Gentle Blues</source>
-        <translation type="unfinished"></translation>
+        <translation>Blues Apacible</translation>
     </message>
     <message>
         <source>Old School</source>
-        <translation type="unfinished"></translation>
+        <translation>Vieja Escuela</translation>
     </message>
     <message>
         <source>Space Dreams</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spy Games</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Tranquility</source>
-        <translation type="unfinished"></translation>
+        <translation>Sueños Espaciales</translation>
     </message>
     <message>
         <source>Writing Desk</source>
-        <translation type="unfinished"></translation>
+        <translation>Escritorio</translation>
     </message>
     <message>
         <source>New</source>
@@ -1151,11 +1135,11 @@
     </message>
     <message>
         <source>Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplicar</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>Personalizados</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -1163,7 +1147,7 @@
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished">Eliminar</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Import</source>
@@ -1179,11 +1163,11 @@
     </message>
     <message>
         <source>Delete theme &apos;%1&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Borrar tema &apos;%1&apos;?</translation>
     </message>
     <message>
         <source>Themes (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Temas (%1)</translation>
     </message>
     <message>
         <source>Import Theme</source>
@@ -1192,6 +1176,22 @@
     <message>
         <source>Export Theme</source>
         <translation>Exportar tema</translation>
+    </message>
+    <message>
+        <source>Bitter Skies</source>
+        <translation>Cielos Amargos</translation>
+    </message>
+    <message>
+        <source>Enchantment</source>
+        <translation>Encantamiento</translation>
+    </message>
+    <message>
+        <source>Spy Games</source>
+        <translation>Juegos de Espías</translation>
+    </message>
+    <message>
+        <source>Tranquility</source>
+        <translation>Tranquilidad</translation>
     </message>
 </context>
 <context>
@@ -1379,7 +1379,7 @@
     </message>
     <message>
         <source>List all documents</source>
-        <translation type="unfinished"></translation>
+        <translation>Listar todos los documentos</translation>
     </message>
     <message>
         <source>Switch to Next Document</source>
@@ -1439,15 +1439,15 @@
     </message>
     <message>
         <source>Save Changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Guardar cambios?</translation>
     </message>
     <message>
         <source>Save changes to the file &apos;%1&apos; before closing?</source>
-        <translation type="unfinished"></translation>
+        <translation>¿Guardar cambios al archivo &apos;%1&apos; antes de cerrar?</translation>
     </message>
     <message>
         <source>Your changes will be lost if you don&apos;t save them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tus cambios se perderán si no los guardas.</translation>
     </message>
     <message>
         <source>Unable to load typewriter sounds.</source>
@@ -1496,10 +1496,6 @@
     <message>
         <source>&amp;Print...</source>
         <translation>&amp;Imprimir...</translation>
-    </message>
-    <message>
-        <source>Pa&amp;ge Setup...</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Close</source>
@@ -1560,38 +1556,6 @@
     <message>
         <source>Fo&amp;rmat</source>
         <translation>&amp;Formato</translation>
-    </message>
-    <message>
-        <source>&amp;Heading</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Heading &amp;1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Heading &amp;2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Heading &amp;3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Heading &amp;4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Heading &amp;5</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Heading &amp;6</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Normal</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Bold</source>
@@ -1718,16 +1682,8 @@
         <translation>Actualizar &amp;documento</translation>
     </message>
     <message>
-        <source>Update Document Smart Quotes</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Update &amp;Selection</source>
         <translation>Actualizar &amp;selección</translation>
-    </message>
-    <message>
-        <source>Update Selection Smart Quotes</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>&amp;Spelling...</source>
@@ -1739,7 +1695,7 @@
     </message>
     <message>
         <source>Set &amp;Language...</source>
-        <translation type="unfinished"></translation>
+        <translation>Estab&amp;lecer idioma...</translation>
     </message>
     <message>
         <source>&amp;Timers...</source>
@@ -1751,7 +1707,7 @@
     </message>
     <message>
         <source>&amp;Daily Progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Progreso &amp;diario</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
@@ -1818,10 +1774,6 @@
         <translation>Enfocar un párrafo</translation>
     </message>
     <message>
-        <source>Ctrl+Shift+`</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>&amp;Help</source>
         <translation>&amp;Ayuda</translation>
     </message>
@@ -1852,6 +1804,54 @@
     <message>
         <source>About &amp;Qt</source>
         <translation>Ac&amp;erca de Qt</translation>
+    </message>
+    <message>
+        <source>Pa&amp;ge Setup...</source>
+        <translation>Configuración de pá&amp;gina...</translation>
+    </message>
+    <message>
+        <source>&amp;Heading</source>
+        <translation>Encabezado</translation>
+    </message>
+    <message>
+        <source>Heading &amp;1</source>
+        <translation>Encabezado &amp;1</translation>
+    </message>
+    <message>
+        <source>Heading &amp;2</source>
+        <translation>Encabezado &amp;2</translation>
+    </message>
+    <message>
+        <source>Heading &amp;3</source>
+        <translation>Encabezado &amp;3</translation>
+    </message>
+    <message>
+        <source>Heading &amp;4</source>
+        <translation>Encabezado &amp;4</translation>
+    </message>
+    <message>
+        <source>Heading &amp;5</source>
+        <translation>Encabezado &amp;5</translation>
+    </message>
+    <message>
+        <source>Heading &amp;6</source>
+        <translation>Encabezado &amp;6</translation>
+    </message>
+    <message>
+        <source>&amp;Normal</source>
+        <translation>&amp;Normal</translation>
+    </message>
+    <message>
+        <source>Update Document Smart Quotes</source>
+        <translation>Actualizar comillas inteligentes del documento</translation>
+    </message>
+    <message>
+        <source>Update Selection Smart Quotes</source>
+        <translation>Actualizar comillas inteligentes de la selección</translation>
+    </message>
+    <message>
+        <source>Ctrl+Shift+`</source>
+        <translation>Ctrl+Mayús+`</translation>
     </message>
 </context>
 </TS>
